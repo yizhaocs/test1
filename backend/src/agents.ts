@@ -1,4 +1,4 @@
-import { Agent, tool, run, withTracing } from "openai/agents";
+import { Agent, tool, run, withTracing } from "@openai/agents";
 import type { EventBus } from "./events.js";
 import { delay, ExecutionController } from "./events.js";
 import { findPath } from "./pathfinding.js";
